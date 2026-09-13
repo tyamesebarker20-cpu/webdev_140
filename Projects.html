@@ -44,21 +44,30 @@
         <h2>Featured Projects</h2>
 
         <div class="skill-container">
+<article class="skill-card">
+    <h3>Password Strength Checker</h3>
 
-            <article class="skill-card">
-                <h3>Password Strength Checker</h3>
+    <p>
+        Enter a password below to see a basic assessment
+        of its strength.
+    </p>
 
-                <p>
-                    An interactive JavaScript tool that evaluates
-                    password characteristics and provides feedback
-                    about password strength.
-                </p>
+    <label for="password">Enter a password:</label>
 
-                <p>
-                    <strong>Skills:</strong> HTML, CSS, JavaScript,
-                    DOM manipulation.
-                </p>
-            </article>
+    <input
+        type="password"
+        id="password"
+        name="password"
+        autocomplete="new-password"
+    >
+
+    <p id="strengthMessage">Password strength: Not checked</p>
+
+    <p>
+        <strong>Skills:</strong> HTML, CSS, JavaScript,
+        DOM manipulation.
+    </p>
+</article>
 
             <article class="skill-card">
                 <h3>IP Address Information Tool</h3>
